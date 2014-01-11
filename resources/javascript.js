@@ -1,2 +1,8 @@
-// Your Javascript will go here!
-alert('hey')
+
+$(document).ready(function() {
+	$("#copyright").click(function(){ 
+  		$(this).css('color','purple'); 
+	});
+});
+
+
